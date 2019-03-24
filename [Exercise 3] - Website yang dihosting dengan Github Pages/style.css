@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #EDF7F5
+}
+
+hr {
+    z-index: 10;
+    width: 5px;
+}
+
+/*========================================== Fonts ==========================================*/
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/*========================================== Home ==========================================*/
+h2 {
+    text-align: center;
+    font-family: 'Anton', sans-serif !important;
+    font-size: 2em !important;
+    color: #204E5F;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: #204E5F;
+    font-size: 1.5em !important;
+}
+
+/*========================================== Section Head ==========================================*/
+.sechead {
+    text-align: center;
+    color: #204E5F;
+    margin-bottom: 50px;
+}
+
+p .sechead {
+    text-align: center;
+    color: #204E5F;
+    margin-bottom: 50px;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*========================================== Header Styling ==========================================*/
+#header {
+    background: #000000;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    border-bottom: 3px solid #333333;
+    font-family: 'Anton', sans-serif;
+}
+
+#header a {
+    display: inline-block;
+    padding: 0 20px;
+    color: #EDF7F5;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#header a:last-child {
+    padding-right: 0;
+}
+
+#header .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: #f38630;
+    left: 0;
+    padding-left: 0;
+    position: absolute;
+}
+
+#header a:hover {
+    color: #B7D7D8;
+    font-weight: 700;
+}
+
+#header .logo:hover {
+    color: #fa6900;
+}
+
+/*========================================== Profile Pict ==========================================*/
+.profilePict {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*========================================== Experience ==========================================*/
+#experience {
+    padding: 50px 0 1px 0;
+    font-family: 'Anton', sans-serif;
+}
+  
+#slideshow {
+    overflow: hidden;
+    height: 728px;
+    width: 728px;
+    margin: 0 auto;
+}
+
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+    text-align: center;
+}
+
+.slide img {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+.slide blockquote {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.slide h3 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #f38630;
+}
+
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    70% {margin-left: -1456px;}
+    90% {margin-left: -1456px;}
+}
+
+/*========================================== Social Media ==========================================*/
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/*========================================== Footer Styling ==========================================*/
